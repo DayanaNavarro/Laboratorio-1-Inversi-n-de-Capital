@@ -165,7 +165,7 @@ Data_activ1=f_down_data().iloc[251:].set_index('Date')
 
 
 """
-Variable que contiene las fechas para el tiempo de estudio de la pasiva
+Variable que contiene las fechas para el tiempo de estudio de la activa
 
 Variable de los cambios en los precios para rebalanceo
 
