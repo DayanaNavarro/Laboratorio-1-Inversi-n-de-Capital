@@ -9,6 +9,25 @@
 # -- --------------------------------------------------------------------------------------------------- -- #
 """
 
+import numpy as np
+import pandas as pd
+import numpy as np
+import time
+from os.path import isfile, join
+from os import listdir, path
+from datetime import date
+import matplotlib.pyplot as plt
+import yfinance as yf
+import glob
+import pandas_datareader.data as web
+from scipy.optimize import minimize
+
+pd.set_option('display.max_rows', None)
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', None)
+pd.set_option('display.expand_frame_repr', False)
+
+
 
 """
 -------------En este script dejas todas las funciones desarrolladas para visualizar datos, ya sean gráficas, tablas, textos impresos y/o híbridos entre estos elementos.
