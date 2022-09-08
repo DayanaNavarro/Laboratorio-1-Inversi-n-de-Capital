@@ -9,6 +9,12 @@
 # -- --------------------------------------------------------------------------------------------------- -- #
 """
 
+
+"""
+------ Colocas variables que guardan datos, códigos breves para leer datos
+
+"""
+
 import numpy as np
 import pandas as pd
 import numpy as np
