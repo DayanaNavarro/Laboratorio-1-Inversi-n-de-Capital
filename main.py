@@ -17,6 +17,7 @@ from os import listdir, path
 from datetime import date
 import matplotlib.pyplot as plt
 import yfinance as yf
+import functions as fn
 import glob
 import pandas_datareader.data as web
 from scipy.optimize import minimize
